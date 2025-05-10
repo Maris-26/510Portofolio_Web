@@ -1,8 +1,8 @@
 # Haichao Xing Photography Portfolio
 
-这是一个极简风格的摄影作品集网站，适合展示个人摄影主题和作品。左侧为主题导航，右侧为大图展示，点击图片可切换同主题下的照片。
+A minimal and elegant photography portfolio website for showcasing themed photo collections. The left sidebar features theme navigation, and the right displays large images. Click the image to switch to the next photo within the same theme.
 
-## 目录结构
+## Directory Structure
 
 ```
 510Portofolio_Web/
@@ -20,33 +20,33 @@
         └── Pier-2.jpg
 ```
 
-## 如何添加/替换图片
-1. 将你的图片放入 `static/photos/` 文件夹。
-2. 命名方式需与 `app.py` 中一致，例如：`Sakura-1.jpg`、`Muse-2.jpg` 等。
-3. 每个主题下两张图片，按需替换即可。
+## How to Add or Replace Images
+1. Place your images in the `static/photos/` folder.
+2. File names must match those in `app.py`, e.g., `Sakura-1.jpg`, `Muse-2.jpg`, etc.
+3. Each theme contains two images; replace as needed.
 
-## 运行方法
-1. 安装依赖（建议使用虚拟环境）：
+## How to Run
+1. Install dependencies (recommended: use a virtual environment):
    ```bash
    pip install flask
    ```
-2. 启动网站：
+2. Start the website:
    ```bash
    python app.py
    ```
-3. 在浏览器访问：
+3. Open your browser and visit:
    ```
    http://127.0.0.1:5001/
    ```
 
-## 自定义主题和图片
-- 在 `app.py` 的 `portfolio_groups` 列表中修改主题名称、图片路径即可。
-- 支持本地图片（推荐 jpg/png），也可用网络图片链接。
+## Customizing Themes and Images
+- Edit the `portfolio_groups` list in `app.py` to change theme names or image paths.
+- Both local images (recommended: jpg/png) and online image URLs are supported.
 
-## 特色说明
-- 极简白色背景，左侧导航不换行，图片自适应居中展示。
-- 点击图片可切换同主题下的下一张。
-- 支持自定义主题数量和图片数量。
+## Features
+- Minimal white background, non-wrapping sidebar navigation, and centered adaptive image display.
+- Click the image to switch to the next photo in the current theme.
+- Easily add or remove themes and images by editing `app.py`.
 
 ---
-如有更多美化或功能需求，欢迎随时联系作者或继续优化！ 
+For further customization or feature requests, feel free to contact the author or continue improving the project! 
